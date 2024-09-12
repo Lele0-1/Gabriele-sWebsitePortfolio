@@ -9,7 +9,7 @@ body {
     background-color: transparent; /* Make background transparent */
     color: #FFD700; /* Set font color to #FFD700 */
     border-color: #FFD700; /* Set border color to #FFD700 */
-    border-width: 2px; /* Set border thickness */
+    border-width: 0.1vw; /* Set border thickness */
     border-style: solid; /* Set border style */
   }
   
@@ -17,11 +17,13 @@ body {
   #btn-group {
     display: flex; /* Use flexbox for horizontal centering */
     justify-content: center; /* Center the buttons within the container */
-    padding: 1vw 5vw; /* Reduced padding */
+    padding: 1vw 0vw; /* Reduced padding */
   }
 
-  #intro    {
+  #navbar    {
+    position: fixed; top: 0;
     padding: 1vw 5vw;
+    background-color: #2d2d2d;
   }
 
   #gbb  {
