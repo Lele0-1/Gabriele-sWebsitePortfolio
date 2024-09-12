@@ -1,5 +1,29 @@
 body {
-    background-color: #121212; /* Dark background */
+    background-color: #232323; /* Dark background */
     color: #FFD700; /* Bright text color */
     font-family: "SUSE", sans-serif;
+  }
+
+  /* Style the buttons */
+#btn-group .btn {
+    background-color: transparent; /* Make background transparent */
+    color: #FFD700; /* Set font color to #FFD700 */
+    border-color: #FFD700; /* Set border color to #FFD700 */
+    border-width: 2px; /* Set border thickness */
+    border-style: solid; /* Set border style */
+  }
+  
+  /* Position the buttons in the upper right corner */
+  #btn-group {
+    display: flex; /* Use flexbox for horizontal centering */
+    justify-content: center; /* Center the buttons within the container */
+    padding: 1vw 5vw; /* Reduced padding */
+  }
+
+  #intro    {
+    padding: 1vw 5vw;
+  }
+
+  #gbb  {
+    width: 10vw;
   }
